@@ -64,7 +64,7 @@
         transition: width 0.3s;
       }
 
-      /* HEADER REVISI */
+      /* HEADER */
       .hero-header {
         padding: 80px 0 60px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
@@ -116,20 +116,55 @@
         border-color: var(--gold);
         transform: translateY(-10px);
       }
+
+      /* === BARU & DIPERBAIKI: IMG PLACEHOLDER (RATA TENGAH & ANIMASI PULSE) === */
       .img-placeholder {
         width: 100%;
         aspect-ratio: 1/1;
         background: #111;
         border-radius: 15px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         border: 1px dashed var(--gold);
         color: var(--gold);
+        padding: 20px;
+        text-align: center;
+      }
+      .top-secret-text {
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+      }
+      .production-text {
         font-size: 0.8rem;
+        opacity: 0.7;
       }
 
-      /* FOOTER REVISI */
+      /* Animasi Loading (Pulse) */
+      .loading-dots:after {
+        content: ".";
+        animation: dots 1s steps(5, end) infinite;
+      }
+      @keyframes dots {
+        0%,
+        20% {
+          content: ".";
+        }
+        40% {
+          content: "..";
+        }
+        60% {
+          content: "...";
+        }
+        80%,
+        100% {
+          content: "";
+        }
+      }
+
+      /* FOOTER */
       .footer {
         background: rgba(0, 0, 0, 0.9);
         border-top: 1px solid rgba(255, 193, 7, 0.3);
@@ -178,7 +213,7 @@
         <p class="footer-sub mb-3">Last War: Survival Game Collaboration Portfolio &copy; 2026</p>
         <div class="pt-3 border-top border-secondary border-opacity-25" style="max-width: 300px; margin: 0 auto">
           <small class="opacity-50 text-uppercase" style="font-size: 0.7rem; letter-spacing: 3px">
-            Powered by <span class="text-white">Aji Wijayono</span>
+            Powered by <span class="text-white">Aji Wijayono &copy; 2026</span>
           </small>
         </div>
       </div>
@@ -237,10 +272,12 @@
               </div>`;
           } else {
             userAvatars.forEach(item => {
+              // === DIPERBAIKI: Tampilan Placeholder dan Logika Fallback ===
               const imageDisplay = item.image
                 ? `<img src="${item.image}" class="img-fluid rounded-3 mb-3 shadow"
-                    alt="${item.tema}" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'>[ ERROR: FILE CORRUPTED ]<br>IMAGE NOT AVAILABLE</div>'">`
-                : `<div class="img-placeholder">TOP SECRET<br>PRODUCTION IN PROGRESS</div>`;
+                    alt="${item.tema}" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><div class=\'top-secret-text\'>[ ERROR: FILE CORRUPTED ]</div><div class=\'production-text\'>IMAGE NOT AVAILABLE</div></div>'">`
+                : // === PESAN DENGAN ANIMASI LOADING (Coming Soon) ===
+                  `<div class="img-placeholder"><div class="top-secret-text">TOP SECRET</div><div class="production-text">PRODUCTION IN PROGRESS<span class="loading-dots"></span></div></div>`;
 
               cardsHtml += `
                 <div class="col-md-6 col-lg-4 mb-4">
