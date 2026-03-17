@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devil Profiles - Commander Deco82</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Oswald:wght@700&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --gold: #ffc107;
+        --dark-bg: #0a0f0d;
+        --army: #1a3c2f;
+      }
+      body {
+        background: radial-gradient(circle at top, var(--army) 0%, var(--dark-bg) 100%);
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* PRELOADER */
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--dark-bg);
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .military-text {
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 5px;
+        color: var(--gold);
+      }
+      #scanning-box {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.9rem;
+        color: #00ff00;
+        height: 25px;
+        margin-bottom: 20px;
+      }
+      .loader-bar {
+        width: 250px;
+        height: 3px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .loader-progress {
+        width: 0%;
+        height: 100%;
+        background: var(--gold);
+        box-shadow: 0 0 15px var(--gold);
+        transition: width 0.3s;
+      }
+
+      /* HEADER REVISI */
+      .hero-header {
+        padding: 80px 0 60px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+        border-bottom: 3px solid var(--gold);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      }
+      .logo-text {
+        font-family: "Oswald", sans-serif;
+        font-size: 4rem;
+        text-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
+        letter-spacing: 8px;
+      }
+      .header-sub {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        opacity: 0.9;
+        font-weight: 300;
+      }
+
+      /* NAV & CARD */
+      .nav-main {
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        padding: 8px;
+        border: 1px solid var(--gold);
+      }
+      .nav-main .nav-link {
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 2px;
+      }
+      .nav-main .nav-link.active {
+        background: var(--gold);
+        color: #000;
+        box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        transition: 0.4s;
+        height: 100%;
+      }
+      .glass-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-10px);
+      }
+      .img-placeholder {
+        width: 100%;
+        aspect-ratio: 1/1;
+        background: #111;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed var(--gold);
+        color: var(--gold);
+        font-size: 0.8rem;
+      }
+
+      /* FOOTER REVISI */
+      .footer {
+        background: rgba(0, 0, 0, 0.9);
+        border-top: 1px solid rgba(255, 193, 7, 0.3);
+        padding: 50px 0;
+        margin-top: 100px;
+      }
+      .footer-main-text {
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+      }
+      .text-gold {
+        color: var(--gold);
+      }
+      .footer-sub {
+        opacity: 0.6;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="preloader">
+      <h2 class="military-text">SYSTEM INITIALIZING</h2>
+      <div id="scanning-box">> Accessing: <span id="scan-name">...</span></div>
+      <div class="loader-bar"><div class="loader-progress" id="load-progress"></div></div>
+    </div>
+
+    <header class="hero-header text-center">
+      <div class="container">
+        <h1 class="logo-text fw-bold text-warning mb-0">DEVIL PROFILES</h1>
+        <p class="header-sub text-uppercase">Elite Gallery for #FYDL & #VODL Commanders</p>
+      </div>
+    </header>
+
+    <main class="container mt-5">
+      <div class="text-center mb-5">
+        <ul class="nav nav-pills nav-main justify-content-center" id="userTabs" role="tablist"></ul>
+      </div>
+      <div class="tab-content" id="userTabsContent"></div>
+    </main>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="footer-main-text mb-2">Crafted with precision by <span class="text-gold">Commander Deco82</span></p>
+        <p class="footer-sub mb-3">Last War: Survival Game Collaboration Portfolio &copy; 2026</p>
+        <div class="pt-3 border-top border-secondary border-opacity-25" style="max-width: 300px; margin: 0 auto">
+          <small class="opacity-50 text-uppercase" style="font-size: 0.7rem; letter-spacing: 3px">
+            Powered by <span class="text-white">Aji Wijayono</span>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script>
+      const usernames = Object.keys(avatarData);
+      const scanNameElem = document.getElementById("scan-name");
+      const progressElem = document.getElementById("load-progress");
+      const preloader = document.getElementById("preloader");
+
+      async function runPreloader() {
+        for (let i = 0; i < usernames.length; i++) {
+          scanNameElem.innerText = usernames[i].toUpperCase() + "...";
+          let progress = ((i + 1) / usernames.length) * 100;
+          progressElem.style.width = progress + "%";
+          await new Promise(resolve => setTimeout(resolve, 400));
+        }
+        scanNameElem.innerText = "ACCESS GRANTED.";
+        scanNameElem.style.color = "#ffc107";
+        setTimeout(() => {
+          preloader.style.transition = "0.7s";
+          preloader.style.opacity = "0";
+          setTimeout(() => {
+            preloader.style.display = "none";
+          }, 700);
+        }, 800);
+      }
+
+      function renderWebsite() {
+        const navContainer = document.getElementById("userTabs");
+        const contentContainer = document.getElementById("userTabsContent");
+
+        usernames.forEach((user, index) => {
+          const isActive = index === 0 ? "active" : "";
+          const isShow = index === 0 ? "show active" : "";
+          const userId = user.replace(/\s+/g, "-").toLowerCase();
+
+          navContainer.innerHTML += `
+            <li class="nav-item">
+              <button class="nav-link ${isActive}" data-bs-toggle="pill" data-bs-target="#tab-${userId}">${user}</button>
+            </li>`;
+
+          let cardsHtml = "";
+          const userAvatars = avatarData[user];
+
+          if (userAvatars.length === 0) {
+            cardsHtml = `
+              <div class="col-12 text-center py-5">
+                <div class="p-5 border border-warning border-dashed rounded-4 opacity-50 bg-black bg-opacity-25">
+                  <h3 class="text-warning military-text">REPORTING FOR DUTY</h3>
+                  <p>Operative <strong>${user}</strong> detected. Data profile encryption in progress...</p>
+                  <span class="badge bg-warning text-dark px-3 py-2">COMING SOON</span>
+                </div>
+              </div>`;
+          } else {
+            userAvatars.forEach(item => {
+              const imageDisplay = item.image
+                ? `<img src="${item.image}" class="img-fluid rounded-3 mb-3 shadow"
+                    alt="${item.tema}" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'>[ ERROR: FILE CORRUPTED ]<br>IMAGE NOT AVAILABLE</div>'">`
+                : `<div class="img-placeholder">TOP SECRET<br>PRODUCTION IN PROGRESS</div>`;
+
+              cardsHtml += `
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="glass-card p-3 d-flex flex-column">
+                    <div class="position-relative">${imageDisplay}</div>
+                    <h6 class="text-warning fw-bold text-uppercase mt-2 small">[${item.tema}]</h6>
+                    <p class="small mb-2 opacity-75">${item.desc}</p>
+                    <ul class="small opacity-50 mb-4" style="list-style: square;">${item.details.map(d => `<li>${d}</li>`).join("")}</ul>
+                    ${item.image ? `<a href="${item.image}" download class="btn btn-warning w-100 mt-auto fw-bold shadow-sm">DOWNLOAD HD</a>` : `<button class="btn btn-dark w-100 mt-auto btn-sm" disabled>ENCRYPTING...</button>`}
+                  </div>
+                </div>`;
+            });
+          }
+
+          contentContainer.innerHTML += `
+            <div class="tab-pane fade ${isShow}" id="tab-${userId}">
+              <div class="row justify-content-center">${cardsHtml}</div>
+            </div>`;
+        });
+      }
+
+      renderWebsite();
+      runPreloader();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
