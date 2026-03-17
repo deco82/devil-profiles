@@ -253,5 +253,33 @@ const avatarData = {
       ],
     },
   ],
+  ValrJen1907: [
+    {
+      image: "images/ValrJen1907/ValrJen1907_VODL_v1-0.png",
+      tema: "The Crow's Flight - Karasuno Edition",
+      aliansi: "VODL",
+      desc: "Representasi ValrJen1907 dalam aliansi VODL, mengusung semangat pantang menyerah tim Karasuno High dari seri Haikyuu!!.",
+      details: [
+        "Karakter: Chibi Jen mengenakan kacamata dan Jaket Sport Karasuno High (Hitam-Putih-Biru).",
+        "Aset Utama: Burung Gagak (The Crows), Bola Voli Bersayap, dan siluet gedung pencakar langit malam.",
+        "Elemen Grafis: Bingkai Vortex biru tua dengan ornamen papan strategi (Clipboard), awan bergulung, dan lencana #VODL.",
+        "Easter Egg: Slogan 'Fly High' di samping karakter, melambangkan ambisi untuk terbang melampaui batas.",
+        "Palet Warna: Midnight Blue, Slate Gray, dan Putih (Kedewasaan & Sportivitas).",
+      ],
+    },
+    {
+      image: "images/ValrJen1907/ValrJen1907_VODL_v1-1.png",
+      tema: "The Celestial Winged Strategist - Vortex Empress v1.1",
+      aliansi: "VODL",
+      desc: "Representasi elit ValrJen1907 dalam aliansi VODL, menampilkan evolusi karakter dewasa yang anggun dengan kontrol penuh atas elemen taktikal.",
+      details: [
+        "Karakter: Persona ValrJen dewasa berambut panjang dan berkacamata, mengenakan jubah elit taktis (Karasuno/VODL).",
+        "Aset Utama: Bola voli bersayap mistis yang dipegang bangga, Papan strategi (Clipboard) digital yang menyala dengan data.",
+        "Elemen Grafis: Bingkai oktagon Islami rose-gold, Vortex (Pusaran) energi kosmik ungu-hitam, dan lencana Aliansi #VODL dalam bentuk orb kristal.",
+        "Aura: Pancaran batin yang tenang namun misterius di balik kacamata, melambangkan keahlian manipulasi ruang dan waktu.",
+        "Palet Warna: Dusty Pink, Midnight Blue, Silver, dan Mauve (Elegansi/Kemewahan).",
+      ],
+    },
+  ],
   "Next Commander": [], // Contoh jika User baru didaftarkan tapi belum ada koleksi
 };
