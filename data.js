@@ -1,6 +1,6 @@
 /************************************************************/
 /* File        : data.js                                    */
-/* Path        : lw_devil_profiles/data.js                  */
+/* Path        : /data.js                                   */
 /* Project     : Devil Profiles                             */
 /* URL         : https://deco82.github.io/devil-profiles/   */
 /* Description : Centralized data repository for avatars.   */
