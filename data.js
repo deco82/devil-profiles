@@ -281,5 +281,35 @@ const avatarData = {
       ],
     },
   ],
+  "Commander  Red Igris": [
+    {
+      image: "images/Commander_Red_Igris/Commander_Red_Igris_VODL_v-1-0.png",
+      tema: "The Crimson Knight - Vortex Overlord Edition",
+      aliansi: "VODL",
+      desc: "Representasi Commander Red Igris dalam aliansi VODL, menampilkan ksatria berbaju zirah merah yang menguasai energi pusaran kosmik.",
+      details: [
+        "Karakter: Ksatria Chibi dengan zirah merah (Crimson Armor) lengkap dan helm berhias bulu panjang yang ikonik.",
+        "Aset Utama: Pedang besar (Greatsword) yang dialiri energi, siluet Monas, serta jembatan layang di bawah langit malam.",
+        "Elemen Grafis: Bingkai melingkar dengan ornamen Vortex ungu, bulan sabit besar di latar belakang, dan lencana Aliansi #VODL (Vortex Of The Devil).",
+        "Aura: Pancaran energi ungu yang kontras dengan warna merah zirah, melambangkan loyalitas yang kuat dan kekuatan mistis yang tak terhentikan.",
+        "Palet Warna: Crimson Red, Deep Purple, dan Midnight Blue (Ketangguhan & Misteri).",
+      ],
+    },
+    {
+      image: "images/Commander_Red_Igris/Commander_Red_Igris_VODL_v-1-2.png",
+      tema: "Void-Bound Blood Knight - Vortex Overlord v1.1",
+      aliansi: "VODL",
+      desc: "Evolusi elit Commander Red Igris dalam aliansi VODL, menampilkan persona 'Void-Bound Blood Knight' yang megah dengan kontrol mutlak atas elemen Vortex kosmik.",
+      details: [
+        "Karakter: Persona Igris dewasa dalam zirah Crimson Red metalik yang rumit (Dark Fantasy/Techwear) dengan jubah bulu merah panjang dinamis.",
+        "Pose: Pose statis yang mendominasi, memegang Greatsword 'Void-Rune' yang tertancap centrally, dan memanipulasi orb Vortex kosmik (Deep Purple/Black) secara aktif.",
+        "Elemen Grafis: Bingkai oktagon rose-gold dengan ukiran rasi bintang voli, latar belakang Pusaran Kosmik Raksasa (Vortex) yang dinamis, serta siluet Monas (Local Landmark).",
+        "Guardian: Sepasang gagak Karasuno realistis (Fly High Crows) terbang mengelilingi sebagai pengintai dan penjaga dimensinya.",
+        "Emblem Aliansi (Kunci): Lencana #VODL (Vortex Of The Devil) dirender sebagai orb kristal ungu yang **sangat menonjol dan diletakkan di tengah kanan bingkai**.",
+        "Teks: Nama 'Commander Red Igris' di atas (Gothic font) dan 'Last War : Survival Game' di bawah (Modern font).",
+        "Palet Warna: Midnight Blue, Dusty Rose, Silver, Mauve, Crimson Red, dan Ungu Crystal (Elegansi/Kekuatan Cosmic).",
+      ],
+    },
+  ],
   "Next Commander": [], // Contoh jika User baru didaftarkan tapi belum ada koleksi
 };
