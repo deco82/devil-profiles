@@ -280,6 +280,20 @@ const avatarData = {
         "Palet Warna: Dusty Pink, Midnight Blue, Silver, dan Mauve (Elegansi/Kemewahan).",
       ],
     },
+    {
+      image: "images/ValrJen1907/ValrJen1907_VODL_v1-2.png",
+      tema: "Void-Bound Strategist - Vortex Empress v1.2",
+      aliansi: "VODL",
+      desc: "Representasi elit ValrJen1907 dalam aliansi VODL, menampilkan persona 'Void-Bound Strategist' yang megah dengan kontrol mutlak atas elemen Vortex kosmik.",
+      details: [
+        "Karakter: Persona ValrJen dewasa berambut panjang dan berkacamata, mengenakan jubah elit taktis (Karasuno/VODL).",
+        "Pose: Pose statis yang mendominasi, menopang papan strategi (Clipboard) digital di tangan kiri, dan memegang serta menunjukkan bola voli bersayap mistis dengan bangga.",
+        "Elemen Grafis: Bingkai oktagon rose-gold dengan ukiran rasi bintang voli, latar belakang Pusaran Kosmik Raksasa (Vortex) yang dinamis, serta siluet Monas (Local Landmark) di bawah. Sepasang gagak Karasuno realistis (Fly High Crows) terbang mengelilingi sebagai pengintai.",
+        "Emblem Aliansi (Kunci): Lencana #VODL (Vortex Of The Devil) dirender sebagai orb kristal ungu yang **sangat menonjol dan diletakkan di tengah kanan bingkai**.",
+        "Teks: Nama 'ValrJen1907' di atas (Gothic font) dan 'Last War : Survival Game' di bawah (Modern font).",
+        "Palet Warna: Midnight Blue, Dusty Rose, Silver, Mauve, Crimson Red, dan Ungu Crystal (Elegansi/Kekuatan Cosmic).",
+      ],
+    },
   ],
   "Commander  Red Igris": [
     {
