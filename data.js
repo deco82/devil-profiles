@@ -16,7 +16,7 @@
 /************************************************************/
 
 const avatarData = {
-  "#FYDL": [
+  FYDL: [
     {
       image: "images/FYDL/FYDL_Alliance_GrandPortrait_v1-0.png",
       tema: "The Fiery Devil United Front - Alliance Grand Portrait v1.0",
@@ -32,11 +32,17 @@ const avatarData = {
       ],
     },
     {
-      image: "", // Contoh jika gambar sedang dibuat (Coming Soon)
-      tema: "Top Secret Project",
+      image: "images/FYDL/FYDL_Alliance_GrandPortrait_v2-0.png",
+      tema: "The Eternal Flame Council - Alliance Grand Portrait v2.0",
       aliansi: "FYDL",
-      desc: "Project avatar rahasia yang sedang dikerjakan.",
-      details: ["Status: In Progress", "ETA: Soon"],
+      desc: "Perombakan total taktis (v2.0) dari potret aliansi #FYDL, menampilkan 'Dewan Api Abadi' dalam posisi rapat strategi United di dalam bunker komando rahasia.",
+      details: [
+        "Latar Belakang: Bunker komando taktis di bawah reruntuhan kota, diterangi aliran lava alami di dinding batu, menciptakan atmosfer serius dan mendalam.",
+        "Komposisi Karakter: 30+ karakter chibi elit dalam formasi United Leaders. Tidak berdiri diam; mereka aktif dalam pose rapat strategi, melihat hologram, dan memeriksa persenjataan.",
+        "Pusat (The Core): Peta strategi hologram besar (melayang) dengan pendaran cahaya biru-neon, menampilkan wilayah perang dan logo Phoenix #FYDL yang berputar.",
+        "Persenjataan Elit: Penambahan detail senjata berat taktis (meriam laser, robot drone kecil, pedang api) yang tersebar di sekitar meja komando, menekankan tema Survival Game.",
+        "Palet Warna: Crimson Red, Burning Orange, Midnight Black (Kekuatan Api) dipadu dengan Electric Blue (Teknologi Hologram).",
+      ],
     },
   ],
   Deco82: [
