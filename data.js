@@ -44,6 +44,19 @@ const avatarData = {
         "Palet Warna: Crimson Red, Burning Orange, Midnight Black (Kekuatan Api) dipadu dengan Electric Blue (Teknologi Hologram).",
       ],
     },
+    {
+      image: "images/FYDL/FYDL_Alliance_GrandPortrait_v3-0.png",
+      tema: "The Fiery Ketupat Gathering - Eid Special Edition v3.0",
+      aliansi: "FYDL",
+      desc: "Edisi spesial kolaborasi Idul Fitri 1447 H, menampilkan seluruh komander aliansi #FYDL dalam suasana penuh kedamaian, kebersamaan, dan kesucian di depan Masjid Terapung.",
+      details: [
+        "Latar Belakang: Pelataran Masjid Terapung modern dengan arsitektur geometris Islami di tepi pantai, di bawah pendaran bulan purnama dan siluet Monas di kejauhan.",
+        "Komposisi Karakter: 30+ karakter chibi mengenakan busana Muslim/Muslimah (Baju Koko & Hijab) dengan aksen warna aliansi, berpose ramah sambil memegang ketupat dan bersila bersama.",
+        "Pusat Visual (The Core): Hiasan Ketupat Raksasa yang memancarkan cahaya emas hangat, menggantikan posisi hologram strategi sebagai simbol kebersamaan.",
+        "Elemen Taktikal: Drone pengintai, persenjataan berat, dan robot pendamping tetap hadir namun dalam mode 'standby' yang damai, dihiasi lampu lentera tradisional.",
+        "Palet Warna: Biru Malam (Kosmik), Emas (Suci), Hijau Ketupat (Tradisi), dan Oranye Api (Identitas FYDL).",
+      ],
+    },
   ],
   Deco82: [
     {
