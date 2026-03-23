@@ -16,6 +16,29 @@
 /************************************************************/
 
 const avatarData = {
+  "#FYDL": [
+    {
+      image: "images/FYDL/FYDL_Alliance_GrandPortrait_v1-0.png",
+      tema: "The Fiery Devil United Front - Alliance Grand Portrait v1.0",
+      aliansi: "FYDL",
+      desc: "Potret kolektif dari seluruh komander yang tergabung dalam aliansi #FYDL (Fiery Devil), melambangkan keragaman, kekuatan, dan kesatuan tim.",
+      details: [
+        "Karakter: 30 karakter chibi elit unik dalam satu bingkai, mewakili berbagai persona komander (Ksatria, Penyihir, Penjelajah, Tehnokrat, dll).",
+        "Aset Utama: Bola Energi Surya (Pusat), Bingkai Mekanikal Gear Raksasa, dan Siluet Kota Post-Apocalyptic di bawah Blood Moon.",
+        "Elemen Grafis: Efek kode biner (Digital), Blood Moon bercahaya, dan ukiran lencana aliansi #FYDL (Phoenix) yang megah.",
+        "Pencahayaan: Pencahayaan intens (Firelight) yang dramatis dari bawah, menciptakan gradasi api merah-oranye yang hangat namun berbahaya.",
+        "Easter Egg: Elemen 'Key Access' dan 'Key' yang tersebar secara halus di bingkai mekanikal, melambangkan akses tak terbatas tim.",
+        "Palet Warna: Crimson Red, Burning Orange, dan Jet Black (Energi, Bahaya, dan Kekuatan).",
+      ],
+    },
+    {
+      image: "", // Contoh jika gambar sedang dibuat (Coming Soon)
+      tema: "Top Secret Project",
+      aliansi: "FYDL",
+      desc: "Project avatar rahasia yang sedang dikerjakan.",
+      details: ["Status: In Progress", "ETA: Soon"],
+    },
+  ],
   Deco82: [
     {
       image: "images/Deco82/Deco82_FYDL_v1-0.png",
