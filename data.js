@@ -294,6 +294,20 @@ const avatarData = {
         "Palet Warna: Soft Pink, Sky Blue, dan Emas (Kedamaian/Harapan) yang kontras dengan seragam gelap karakter.",
       ],
     },
+    {
+      image: "images/Jay_nurul/Jay_nurul_FYDL_v-1-0.png",
+      tema: "The Evolved Strategic Overlord - Taurus Glyph Edition v1.0.1",
+      aliansi: "FYDL",
+      desc: "Representasi personal Jay 08 (Madridista) di server 1252, mengusung perpaduan kekuatan kosmik, identitas lokal Samarinda, dan simbol zodiak Taurus yang minimalis.",
+      details: [
+        "Karakter: Chibi Gojo-inspired (Rambut putih, penutup mata) dalam pose 'Six Eyes' strategis, memegang orb energi 'Hollow Purple'.",
+        "Aset Utama: Bola energi Hollow Purple, bulan ungu kosmik, dan pusaran nebula.",
+        "Elemen Grafis: Bingkai Vortex ungu tua dengan ornamen bintang, lencana #FYDL, dan informasi server #1252.",
+        "Badge Samarinda: Landmark Jembatan Mahakam dan Tugu Pesut tanpa satwa atau teks tambahan untuk visual yang bersih.",
+        "Badge Zodiak: Menampilkan Glyph Astrologi Taurus (♉) yang minimalis dan elegan.",
+        "Palet Warna: Biru Malam, Ungu Kosmik, dan Emas.",
+      ],
+    },
   ],
   ValrJen1907: [
     {
