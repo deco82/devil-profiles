@@ -351,7 +351,7 @@ const avatarData = {
       ],
     },
   ],
-  "Commander  Red Igris": [
+  "Commander Red Igris": [
     {
       image: "images/Commander_Red_Igris/Commander_Red_Igris_VODL_v-1-0.png",
       tema: "The Crimson Knight - Vortex Overlord Edition",
@@ -378,6 +378,49 @@ const avatarData = {
         "Emblem Aliansi (Kunci): Lencana #VODL (Vortex Of The Devil) dirender sebagai orb kristal ungu yang **sangat menonjol dan diletakkan di tengah kanan bingkai**.",
         "Teks: Nama 'Commander Red Igris' di atas (Gothic font) dan 'Last War : Survival Game' di bawah (Modern font).",
         "Palet Warna: Midnight Blue, Dusty Rose, Silver, Mauve, Crimson Red, dan Ungu Crystal (Elegansi/Kekuatan Cosmic).",
+      ],
+    },
+  ],
+  smallcute: [
+    {
+      image: "images/Smallcute/Smallcute_FYDL_v1-0.png",
+      tema: "The Uchiha's Amaterasu - Fiery Devil Edition",
+      aliansi: "FYDL",
+      desc: "Representasi personal untuk smallcute dalam aliansi FYDL di server 1252, mengusung perpaduan kekuatan legendaris klan Uchiha dari seri Naruto dengan sentuhan visual taktis yang anggun.",
+      details: [
+        "Karakter: Chibi female ninja terinspirasi gaya Sasuke Uchiha dengan rambut hitam panjang, aksesori jepit bunga, dan sepasang mata Sharingan merah yang ikonik.",
+        "Aset Utama: Api hitam-ungu mistis (Amaterasu) yang melayang di tangan kanan, senjata kunai, shuriken, dan gulungan ninja (scrolls) di sekeliling karakter.",
+        "Elemen Grafis: Bingkai bulat bertema pusaran api taktis dengan hiasan pola Mangekyou Sharingan dan lambang kipas Uchiha di setiap sudutnya, dilengkapi lencana resmi #FYDL Fiery Devil.",
+        "Branding Teks: Nama kustom 'smallcute' di bagian atas, identitas 'Server 1252' di tengah bawah, serta judul game 'Last War: Survival' pada bagian terbawah bingkai.",
+        "Palet Warna: Crimson Red (Merah Lembut), Deep Purple, Hitam, dan Dark Blue (Kesan Feminin namun Kuat).",
+      ],
+    },
+    {
+      image: "images/Smallcute/Smallcute_Sasuke_FYDL_v1-1.png",
+      tema: "The Avenger's Awakening - True Sasuke Uchiha Edition v1.1",
+      aliansi: "FYDL",
+      desc: "Representasi karakter asli Sasuke Uchiha untuk akun smallcute dalam aliansi FYDL di server 1252, mengusung estetika gelap khas klan Uchiha langsung dari seri anime Naruto Shippuden.",
+      details: [
+        "Karakter: Sasuke Uchiha asli (bukan chibi) dalam posisi meditasi silang, menampilkan detail mata kanan Sharingan merah dan mata kiri Rinnegan ungu.",
+        "Pakaian & Ornamen: Mengenakan kemeja abu-abu tua/hitam berkerah tinggi khas era Shippuden dengan tali katan (shimenawa) ungu melingkar di pinggang.",
+        "Aset Utama: Kobaran api hitam-ungu Amaterasu di telapak tangan, pedang Kusanagi dengan aliran listrik Chidori di pojok kanan atas, serta gulungan ninja dan shuriken yang melayang.",
+        "Elemen Grafis: Bingkai melingkar simetris bertema pusaran api dan awan akatsuki, dihiasi lambang kipas klan Uchiha dan pola Mangekyou Sharingan di sudut-sudut bingkai.",
+        "Branding Teks: Nama kustom 'smallcute' di bagian atas tengah, identitas 'Server 1252' di bawah, serta judul game 'Last War: Survival' di dasar bingkai.",
+        "Palet Warna: Crimson Red, Deep Purple, Hitam, dan aksen Biru Gelap elektrik.",
+      ],
+    },
+    {
+      image: "images/Smallcute/Smallcute_Sasuke_FYDL_v1-2.png",
+      tema: "The Blue Lightning God - Chidori Edition v1.2",
+      aliansi: "FYDL",
+      desc: "Representasi karakter asli Sasuke Uchiha untuk akun smallcute dalam aliansi FYDL di server 1252, berfokus pada elemen petir elektrik taktis dengan dominasi warna biru dan perak.",
+      details: [
+        "Karakter: Sasuke Uchiha asli dalam pose bertarung taktis yang dinamis, menggenggam pedang Kusanagi yang dialiri petir intens.",
+        "Aset Utama: Bola listrik Chidori biru-putih yang meledak di tangan kiri, dikelilingi sambaran petir dan pusaran awan badai gelap pada latar belakang.",
+        "Elemen Grafis: Bingkai metalik perak dan biru gelap dengan ornamen lambang kipas klan Uchiha di pojok kiri bawah, hiasan bunga teratai, serta pola Mangekyou Sharingan yang bersinar biru elektrik di setiap sudut atas dan bawah.",
+        "Aliansi & Server: Lencana #FYDL Fiery Devil di sisi kanan dengan kobaran api taktis berwarna biru, serta keterangan 'Server 1252' di bagian bawah lingkaran.",
+        "Branding Teks: Nama kustom 'smallcute' melengkung di bagian atas, serta judul bawah 'Sasuke Uchiha: The Blue Lightning God' pada dasar bingkai.",
+        "Palet Warna: Azure Blue (Biru Elektrik), Perak Metalik, Midnight Blue, dan aksen Putih Terang.",
       ],
     },
   ],
