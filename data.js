@@ -384,7 +384,7 @@ const avatarData = {
   smallcute: [
     {
       image: "images/Smallcute/Smallcute_FYDL_v1-0.png",
-      tema: "The Uchiha's Amaterasu - Fiery Devil Edition",
+      tema: "The Uchiha's Amaterasu - Fiery Devil Edition v1.0",
       aliansi: "FYDL",
       desc: "Representasi personal untuk smallcute dalam aliansi FYDL di server 1252, mengusung perpaduan kekuatan legendaris klan Uchiha dari seri Naruto dengan sentuhan visual taktis yang anggun.",
       details: [
@@ -435,6 +435,34 @@ const avatarData = {
         "Aliansi & Server: Lencana #FYDL Fiery Devil dengan lambang Uchiha di sisi kanan dengan kobaran api merah, serta keterangan 'Server 1252' tepat di bawah karakter.",
         "Branding Teks: Nama kustom 'smallcute' dengan hiasan bintang melengkung di bagian atas, serta judul game 'Last War: Survival' pada bagian dasar bingkai.",
         "Palet Warna: Dark Purple (Ungu Gelap), Soft Pink/Red (Merah Lembut), Crimson, dan Midnight Blue.",
+      ],
+    },
+    {
+      image: "images/Smallcute/Smallcute_Sasuke_Ramen_v1-4.png",
+      tema: "The Shinobi Break - Hokage Rock Ramen Edition v1.4",
+      aliansi: "FYDL",
+      desc: "Representasi santai dan lucu dari Sasuke Uchiha untuk akun smallcute dalam aliansi FYDL di server 1252, menampilkan momen santap ramen yang menggiurkan dengan latar belakang ikonik tebing Batu Hokage.",
+      details: [
+        "Karakter: Sasuke Uchiha dalam gaya seni chibi/anime yang ekspresif, tampak sangat menikmati semangkuk ramen hangat berkuah kental lengkap dengan sumpit di tangannya.",
+        "Aset Utama: Semangkuk ramen lezat penuh topping (telur, narutomaki, daging) yang mengepulkan uap hangat, disajikan di atas meja kedai tradisional.",
+        "Elemen Grafis: Latar belakang pemandangan luar kedai yang memperlihatkan monumen pahatan Batu Hokage di bawah langit sore yang cerah, serta dekorasi lampion khas kedai ramen.",
+        "Aliansi & Server: Penempatan lencana #FYDL Fiery Devil yang disesuaikan secara tematis di sudut bingkai, lengkap dengan teks 'Server 1252' yang terintegrasi rapi.",
+        "Branding Teks: Nama kustom 'smallcute' dengan font bergaya ninja yang melengkung dinamis di bagian atas bingkai.",
+        "Palet Warna: Warm Orange (Oranye Hangat), Terrakota, Kuning Gurih (ramen), dan aksen Biru-Hitam khas pakaian Sasuke.",
+      ],
+    },
+    {
+      image: "images/Smallcute/Smallcute_Sasuke_Dango_v1-5.png",
+      tema: "The Sweet Shinobi - Hokage Rock Dango Edition v1.5",
+      aliansi: "FYDL",
+      desc: "Representasi yang sangat imut dan santai dari Sasuke Uchiha untuk akun smallcute dalam aliansi FYDL di server 1252, menampilkan momen lahap saat memakan sate dango raksasa dengan latar belakang Batu Hokage.",
+      details: [
+        "Karakter: Sasuke Uchiha dalam gaya seni chibi dengan ekspresi super ceria dan mata terpejam bahagia, pipinya menggembung karena sedang mengunyah dango yang melar.",
+        "Aset Utama: Sate dango tiga warna ukuran besar (merah muda, putih, hijau) yang dipegang erat, lengkap dengan tikar piknik kecil berisi secangkir teh hijau hangat dan piring dango cadangan.",
+        "Elemen Grafis: Latar belakang halaman rumput hijau di depan jendela terbuka yang memperlihatkan deretan pahatan wajah Batu Hokage di bawah langit biru berawan.",
+        "Aliansi & Server: Lencana #FYDL Fiery Devil berlogo Uchiha dengan kobaran api biru taktis di sisi kanan, serta keterangan teks 'Server 1252' di bagian bawah.",
+        "Branding Teks: Nama kustom 'smallcute' melengkung rapi di bagian atas bingkai, serta judul game 'Last War: Survival' di dasar bingkai.",
+        "Palet Warna: Biru Indigo (pakaian Sasuke), Hijau Cerah (rumput & dango), Merah Muda Lembut, dan aksen bingkai perak metalik dengan sudut Sharingan merah.",
       ],
     },
   ],
