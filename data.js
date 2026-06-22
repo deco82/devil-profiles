@@ -423,6 +423,20 @@ const avatarData = {
         "Palet Warna: Azure Blue (Biru Elektrik), Perak Metalik, Midnight Blue, dan aksen Putih Terang.",
       ],
     },
+    {
+      image: "images/Smallcute/Smallcute_FYDL_v1-3.png",
+      tema: "Chibi Fem-Sasuke Magic Edition v1.3",
+      aliansi: "FYDL",
+      desc: "Representasi karakter versi perempuan (genderbend) Sasuke Uchiha dalam gaya seni chibi imut untuk akun smallcute dalam aliansi FYDL di server 1252, dengan nuansa palet warna yang sedikit lembut (soft).",
+      details: [
+        "Karakter: Karakter perempuan berambut hitam panjang menyerupai Sasuke Uchiha dengan mata Sharingan merah, mengenakan hiasan bunga di rambut dan baju berlogo klan Uchiha.",
+        "Aset Utama: Efek sihir api/aura berwarna ungu kehitaman yang menyala di atas telapak tangan dalam posisi meditasi duduk di atas awan gelap.",
+        "Elemen Grafis: Bingkai melingkar ornamen gelap dengan dekorasi senjata kunai di pojok kanan atas, gulungan ninja (scroll), serta pola mata Mangekyou Sharingan merah di sudut-sudut bingkai.",
+        "Aliansi & Server: Lencana #FYDL Fiery Devil dengan lambang Uchiha di sisi kanan dengan kobaran api merah, serta keterangan 'Server 1252' tepat di bawah karakter.",
+        "Branding Teks: Nama kustom 'smallcute' dengan hiasan bintang melengkung di bagian atas, serta judul game 'Last War: Survival' pada bagian dasar bingkai.",
+        "Palet Warna: Dark Purple (Ungu Gelap), Soft Pink/Red (Merah Lembut), Crimson, dan Midnight Blue.",
+      ],
+    },
   ],
   kooncute: [
     {
