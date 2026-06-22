@@ -424,5 +424,49 @@ const avatarData = {
       ],
     },
   ],
+  kooncute: [
+    {
+      image: "images/Kooncute/Kooncute_MaineCoon_v1-0.png",
+      tema: "The Majestic Maine Coon - Elegance Edition v1.0",
+      aliansi: "FYDL",
+      desc: "Representasi karakter orisinal bertema kucing raksasa Maine Coon yang anggun untuk akun KOONCUTE dalam aliansi Fiery Devil (#FYDL) di server 1252, berfokus pada estetika taktis yang imut, hangat, dan megah.",
+      details: [
+        "Karakter: Gadis anime berambut panjang yang anggun dengan telinga kucing (nekomimi) berbulu lebat dan halus khas ras Maine Coon, mengenakan sweater rajut hangat dengan ekspresi tersenyum manis.",
+        "Aset Utama: Karakter utama sedang menggendong seekor kucing Maine Coon hitam berbulu lebat yang terpejam manja, dengan latar belakang ruangan hangat berfasilitas perapian dan rak buku yang estetik.",
+        "Elemen Grafis: Bingkai lingkaran logam ornamen emas melingkar yang megah dengan permata biru di beberapa sisi, dihiasi detail ukiran tapak kaki kucing (paw prints) ikonik serta dekorasi tulang ikan emas di tepian bingkai.",
+        "Aliansi & Server: Lencana kustom kotak emas berbentuk perisai bertuliskan '[#FYDL] Fiery Devil' di sisi kiri luar bingkai, serta keterangan teks 'Server 1252' di bagian bawah lingkaran.",
+        "Branding Teks: Nama kustom 'KOONCUTE' melengkung rapi di bagian atas bingkai, serta judul label game 'Last War: Survival Game' pada dudukan dasar bingkai.",
+        "Palet Warna: Kombinasi warna hangat seperti Soft Beige, Cokelat Pastel, Hitam pekat yang elegan, dengan aksen Emas Muda dan Biru Permata pada bingkai taktis.",
+      ],
+    },
+    {
+      image: "images/Kooncute/Kooncute_RaccoonTanuki_v1-0.png",
+      tema: "The Adorable Outlaw - Raccoon & Tanuki Edition v1.0",
+      aliansi: "FYDL",
+      desc: "Representasi karakter berkerudung tema Raccoon/Tanuki yang cerdik dan menggemaskan untuk akun KOONCUTE dalam aliansi Fiery Devil (#FYDL) di server 1252, mengusung vibe playful dan aktif khas Last War.",
+      details: [
+        "Karakter: Gadis anime berwajah imut yang mengenakan jaket hoodie dengan kupluk bertelinga raccoon serta ekor bergaris tebal yang menggemaskan, menampilkan ekspresi ceria dan sedikit usil.",
+        "Aset Utama: Efek kelopak bunga dan dedaunan pohon oak yang melayang alami di sekeliling karakter, dipadukan dengan latar belakang pemandangan hutan bernuansa musim gugur (autumn vibes) yang hangat.",
+        "Elemen Grafis: Bingkai lingkaran bertema petualangan alam dengan dekorasi ranting pohon, cetakan jejak kaki raccoon (paw prints) yang estetik di sudut bingkai, serta perpaduan tekstur kayu alami dan logam modern.",
+        "Aliansi & Server: Lencana resmi #FYDL Fiery Devil terpajang rapi di sisi kanan dengan aksen lambang aliansi yang tegas, lengkap dengan teks 'Server 1252' di bagian bawah lingkaran.",
+        "Branding Teks: Tipografi nama 'KOONCUTE' melengkung dinamis di bagian atas dengan efek glow, serta label teks 'Last War - Survival Game' di dasar bingkai.",
+        "Palet Warna: Dominasi warna Cokelat Tanah, Cream Lembut, Oranye Musim Gugur, dan aksen Hijau Daun yang segar.",
+      ],
+    },
+    {
+      image: "images/Kooncute/Kooncute_Cocoon_v1-0.png",
+      tema: "The Mystical Cocoon - Butterfly Transformation Edition v1.0",
+      aliansi: "FYDL",
+      desc: "Representasi karakter orisinal bertema kepompong dan transformasi kupu-kupu yang cantik untuk akun KOONCUTE dalam aliansi Fiery Devil (#FYDL) di server 1252, berfokus pada estetika magis, anggun, dan penuh pendaran cahaya.",
+      details: [
+        "Karakter: Gadis anime berambut panjang anggun dengan hiasan sayap kupu-kupu transparan di kepala, mengenakan gaun sutra transparan yang indah dengan ekspresi tenang dan lembut.",
+        "Aset Utama: Karakter utama sedang menangkupkan kedua tangan memegang kupu-kupu yang bersinar terang, dikelilingi oleh visual kepompong sutra (cocoon) yang bercahaya dan kupu-kupu transparan yang betergangan di latar belakang.",
+        "Elemen Grafis: Bingkai lingkaran logam ornamen emas melingkar yang megah dengan permata biru di beberapa sisi, dihiasi detail ukiran kepompong bercahaya di sudut atas serta ilustrasi sayap kupu-kupu warna-warni yang estetik di sudut bawah.",
+        "Aliansi & Server: Lencana kustom kotak emas berbentuk perisai bertuliskan '[#FYDL] Fiery Devil' di sisi kiri luar bingkai, serta keterangan teks 'Server 1252' di bagian bawah lingkaran.",
+        "Branding Teks: Nama kustom 'KOONCUTE' melengkung rapi dengan font sans-serif modern di bagian atas bingkai, serta judul label game 'Last War: Survival Game' pada dudukan dasar bingkai.",
+        "Palet Warna: Kombinasi warna magis yang lembut seperti Soft Lavender, Putih Mutiara, Ungu Pastel, dan pendaran cahaya Neon Mint/Cyan, berpadu dengan aksen Emas Gelap pada bingkai taktis.",
+      ],
+    },
+  ],
   "Next Commander": [], // Contoh jika User baru didaftarkan tapi belum ada koleksi
 };
