@@ -84,6 +84,18 @@ const avatarData = {
       ],
     },
     {
+      image: "images/Deco82/Deco82_Lost_In_The_Crowd.png",
+      tema: "LOST IN THE CROWD",
+      aliansi: "FYDL",
+      desc: "Representasi visual dari fenomena 'Loneliness in a Crowd', mencerminkan perjuangan batin seorang komandan militer yang merasa hampa dan kehilangan tujuan hidup meski berada di tengah kesibukan markas.",
+      details: [
+        "Karakter: Komandan pria (3D Chibi) dengan armor sci-fi hitam beraksen api taktis, kacamata pelindung, dan ekspresi wajah melamun menatap kosong.",
+        "Aset Utama: Barak/pangkalan militer Tangerang yang ramai dengan prajurit latar belakang yang dibuat agak kabur (out of focus).",
+        "Elemen Grafis: Emblem Radar HUD (Tengah Kiri: FREQ: 82.00 | LOC: TGR), Badge Aliansi (Tengah Kanan: [#FYDL] | [#1252]), bingkai retak dengan labirin terputus, kompas rusak, dan jam pasir kosong.",
+        "Palet Warna: Latar belakang hangat (oranye/kuning) kontras dengan sorotan rim light dingin (cyan/biru muda) pada karakter utama.",
+      ],
+    },
+    {
       image: "", // Contoh jika gambar sedang dibuat (Coming Soon)
       tema: "Top Secret Project",
       aliansi: "FYDL",
@@ -174,6 +186,18 @@ const avatarData = {
         "Aset Utama: Jembatan Suramadu (Siluet Biru), Bulan Sabit Raksasa (Di Belakang Karakter), dan taburan bintang jatuh.",
         "Elemen Grafis: Bingkai oktagon Islami, lampion gantung, lencana Aliansi #FYDL (Gaya Orb), dan efek cahaya Backlit.",
         "Palet Warna: Soft Pink & Sky Blue dengan aksen Emas intens dari cahaya bulan dan lentera.",
+      ],
+    },
+    {
+      image: "images/Mooncute/Mooncute_Found_In_The_Silence.png",
+      tema: "FOUND IN THE SILENCE",
+      aliansi: "FYDL",
+      desc: "Representasi visual dari keheningan jarak jauh, menggambarkan seorang operator taktis wanita yang mengisolasi diri di menara sunyi, mencari arah di tengah hampa dan dinginnya malam.",
+      details: [
+        "Karakter: Operator/sniper wanita (3D Chibi) dengan seragam night-ops ramping, headset komunikasi, memegang gadget taktis dengan senyum tipis lembut.",
+        "Aset Utama: Menara pantau militer yang tinggi dan sunyi dengan pemandangan cakrawala malam kota Surabaya bertabur lampu dari kejauhan.",
+        "Elemen Grafis: Emblem Radar HUD (Tengah Kiri: FREQ: 82.00 | LOC: SBY), Badge Aliansi (Tengah Kanan: [#FYDL] | [#1252]), bingkai kaca retak dengan gelombang flatline, kompas eror 'LOST', dan siluet jangkar melayang.",
+        "Palet Warna: Dominasi warna malam yang dingin (biru tua/perak) kontras dengan pendaran cahaya hangat (amber/oranye neon) dari layar gadget ke wajah karakter.",
       ],
     },
   ],
