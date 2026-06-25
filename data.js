@@ -45,8 +45,8 @@ const avatarData = {
       ],
     },
     {
-      image: "images/FYDL/FYDL_Alliance_GrandPortrait_v3-0.png",
-      tema: "The Fiery Ketupat Gathering - Eid Special Edition v3.0",
+      image: "images/FYDL/FYDL_Eid_Special_Edition_1447H.png",
+      tema: "The Fiery Ketupat Gathering - Eid Special Edition",
       aliansi: "FYDL",
       desc: "Edisi spesial kolaborasi Idul Fitri 1447 H, menampilkan seluruh komander aliansi #FYDL dalam suasana penuh kedamaian, kebersamaan, dan kesucian di depan Masjid Terapung.",
       details: [
